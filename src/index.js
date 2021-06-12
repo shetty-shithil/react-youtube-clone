@@ -2,11 +2,38 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import { BrowserRouter } from "react-router-dom";
+//<BrowserRouter><App/></BrowserRouter>
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: "#c00",
+    },
+    secondary: {
+      main: "#606060",
+      light: "#f8f8f8",
+    },
+    error: {
+      main: "#EA0B43",
+    },
+    text: {
+      primary: "#000000",
+      secondary: "#6f6f6f",
+    },
+    background: {
+      default: "#FFFFFF",
+    },
+  },
+});
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ThemeProvider theme={theme}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </ThemeProvider>,
   document.getElementById("root")
 );
 
