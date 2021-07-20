@@ -3,6 +3,7 @@ const HomePage = (props) => {
   return (
     <div>
       <Header></Header>
+    //Have to include navbar
       {/* <div> Main Navigation Bar</div>
       <div> Side Bar</div>
       <div> Chips Container</div>
