@@ -147,7 +147,7 @@ const Header = (props) => {
         <IconButton aria-label="create videos" color="inherit">
           <VideoCallIcon />
         </IconButton>
-        <p>Create</p>
+        <p>Crate</p>
       </MenuItem>
 
       <MenuItem onClick={handleProfileMenuOpen}>
@@ -159,7 +159,7 @@ const Header = (props) => {
         >
           <AccountCircle />
         </IconButton>
-        <p>Profile</p>
+        <p>Procter</p>
       </MenuItem>
     </Menu>
   );
