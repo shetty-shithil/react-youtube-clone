@@ -147,7 +147,7 @@ const Header = (props) => {
         <IconButton aria-label="create videos" color="inherit">
           <VideoCallIcon />
         </IconButton>
-        <p>Create</p>
+        <p>Banao</p>
       </MenuItem>
 
       <MenuItem onClick={handleProfileMenuOpen}>
