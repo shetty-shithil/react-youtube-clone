@@ -159,7 +159,7 @@ const Header = (props) => {
         >
           <AccountCircle />
         </IconButton>
-        <p>Profile</p>
+        <p>Kundli</p>
       </MenuItem>
     </Menu>
   );
